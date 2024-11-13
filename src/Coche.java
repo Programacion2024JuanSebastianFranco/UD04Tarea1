@@ -1,11 +1,39 @@
 public class Coche {
 
     private int puertas;
+    private int ruedas;
     private double peso;
+    private double precio;
     private String motor;
     private String modelo;
     private String color;
     private String marca;
+
+    /**
+     * TOMA UN VALOR COMO RUEDAS Y LO DEVUELVE
+     * @return ruedas
+     */
+    public int getRuedas() {
+        return ruedas;
+    }
+
+
+    public void setRuedas(int ruedas) {
+        this.ruedas = ruedas;
+    }
+
+    public double getPrecio() {
+        if (precio < 20000)
+            System.err.println("El precio no puede ser mayor que 20.000");
+
+        return precio;
+
+    }
+
+    public void setPrecio(double precio) {
+        this.precio = precio;
+    }
+
 
     public int getPuertas() {
         return puertas;
@@ -16,8 +44,8 @@ public class Coche {
     }
 
     public double getPeso() {
-        if (peso < 0)
-            System.err.println("No puede ser menor que 0");
+        if (peso > 0)
+            System.err.println("EL peso tiene que ser mayor o igual a 0");
 
         return peso;
     }
@@ -43,7 +71,7 @@ public class Coche {
     }
 
     public String getColor() {
-        return color;
+        return color.toUpperCase();
     }
 
     public void setColor(String color) {
