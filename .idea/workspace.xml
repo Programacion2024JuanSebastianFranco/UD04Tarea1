@@ -4,8 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cfcd9dbc-dca9-4ad7-b0ce-2d5f87b7bb9c" name="Changes" comment="Fin Calculadora">
-      <change afterPath="$PROJECT_DIR$/src/Persona.java" afterDir="false" />
+    <list default="true" id="cfcd9dbc-dca9-4ad7-b0ce-2d5f87b7bb9c" name="Changes" comment="Inicio Persona">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -96,7 +95,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731513724271</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Inicio Persona">
+      <option name="closed" value="true" />
+      <created>1731514883282</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1731514883282</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -104,6 +111,7 @@
     <MESSAGE value="Inicio get and setter" />
     <MESSAGE value="Fin Coche" />
     <MESSAGE value="Fin Calculadora" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fin Calculadora" />
+    <MESSAGE value="Inicio Persona" />
+    <option name="LAST_COMMIT_MESSAGE" value="Inicio Persona" />
   </component>
 </project>
