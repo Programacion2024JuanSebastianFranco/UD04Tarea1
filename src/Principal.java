@@ -11,7 +11,7 @@ public class Principal {
             switch (opc){
 
                 case 1 -> principal.testCoche();
-
+                case 2 -> principal.testCalculadora();
 
 
             }
@@ -65,5 +65,21 @@ public class Principal {
         cordoba.setRuedas(4);
         cordoba.setModelo("Cordaba");
         cordoba.setColor("Azul");
+    }
+
+
+
+    private void testCalculadora(){
+
+        Calculadora calculator = new Calculadora ();
+
+        calculator.setPrimerNumero(5.0);
+        calculator.setSegundoNumero(4);
+        System.out.println("suma= " + calculator.getResultadoSuma(calculator.getPrimerNumero(), calculator.getSegundoNumero()));
+        System.out.println("resta= " + calculator. getResultadoResta(calculator.getPrimerNumero(), calculator.getSegundoNumero()));
+        calculator.setPrimerNumero(5.25);
+        calculator.setSegundoNumero(0);
+        System.out.println("multiplicación= " + calculator.getResultadoMulti(calculator.getPrimerNumero(), calculator.getSegundoNumero()));
+        System.out.println("división= " + calculator.getResultadoDivi(calculator.getPrimerNumero(), calculator.getSegundoNumero()));
     }
 }
