@@ -1,6 +1,5 @@
 public class PersonajeJuego {
 
-    // Propiedades
     private int nivel;
     private int balas;
 
@@ -8,8 +7,6 @@ public class PersonajeJuego {
         this.nivel = nivel;
         this.balas = balas;
     }
-
-    // Getters
 
     public int getNivel() {
         return nivel;
@@ -19,8 +16,6 @@ public class PersonajeJuego {
         return balas;
     }
 
-    // Setters
-
     public void setNivel(int nivel) {
         this.nivel = nivel;
     }
@@ -29,9 +24,6 @@ public class PersonajeJuego {
         this.balas = balas;
     }
 
-    // Métodos adicionales
-
-    // disparar
     public String disparar() {
         if (balas > 0) {
             balas--; // Disminuir una bala
@@ -41,7 +33,6 @@ public class PersonajeJuego {
         }
     }
 
-    // usar un cañón (disponible solo en nivel 5)
     public String usarCanon() {
         if (nivel >= 5) {
             return "Cañon activado, has destruido a un enemigo poderoso";
@@ -50,7 +41,6 @@ public class PersonajeJuego {
         }
     }
 
-    // atacar a un enemigo (depende de las balas o el cañon)
     public String atacar() {
         if (balas > 0) {
             return disparar();
