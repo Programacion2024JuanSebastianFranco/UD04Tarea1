@@ -26,7 +26,7 @@ public class PersonajeJuego {
 
     public String disparar() {
         if (balas > 0) {
-            balas--; // Disminuir una bala
+            balas--;
             return "disparo exitoso, quedan " + balas + " balas";
         } else {
             return "No tienes balas para disparar";
@@ -37,7 +37,7 @@ public class PersonajeJuego {
         if (nivel >= 5) {
             return "Cañon activado, has destruido a un enemigo poderoso";
         } else {
-            return "Debes ser al menos nivel 5 para usar el cañón.";
+            return "Debes ser al menos nivel 5 para usar el cañon";
         }
     }
 
