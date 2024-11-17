@@ -12,6 +12,7 @@ public class Principal {
 
                 case 1 -> principal.testCoche();
                 case 2 -> principal.testCalculadora();
+                case 3 -> principal.testPersona();
 
 
             }
@@ -81,5 +82,30 @@ public class Principal {
         calculator.setSegundoNumero(0);
         System.out.println("multiplicación= " + calculator.getResultadoMulti(calculator.getPrimerNumero(), calculator.getSegundoNumero()));
         System.out.println("división= " + calculator.getResultadoDivi(calculator.getPrimerNumero(), calculator.getSegundoNumero()));
+    }
+
+
+
+    private void testPersona(){
+        Persona persona = new Persona();
+        persona.setNombre(""); // nombre is set to empty string
+        persona.setApellido(""); // apellido is set to empty string
+        persona.setEdad(10);
+        System.out.println("fullName= " + persona.getFullName());
+        System.out.println("adolescente= " + persona.esAdolescente());
+        persona.setNombre("Mortadelo"); // nombre
+        persona.setEdad(18);
+        System.out.println("fullName= " + persona.getFullName());
+        System.out.println("adolescente = " + persona. esAdolescente());
+        persona.setApellido("Pérez"); // se establece apellido
+        System.out.println("fullName= " + persona.getFullName());
+        persona.setNif(9408901,'B'); // se establece nif erroneo
+        System.out.println("NIF= " + persona.getNif());
+        persona.setNif(9408901,'S'); // se establece nif correcto
+        System.out.println("NIF= " + persona.getNif());
+    }
+
+    private void miClase(){
+
     }
 }
