@@ -1,3 +1,5 @@
+package Tarea1;
+
 import java.util.Scanner;
 
 public class Principal {
@@ -25,7 +27,7 @@ public class Principal {
 
         do {
 
-            System.out.println("MENU\n1. Probar Coche\n2. Probar Calculadora\n3. Probar Persona\n4. Probar MI clase\n5. Salir");
+            System.out.println("MENU\n1. Probar Tarea1.Coche\n2. Probar Tarea1.Calculadora\n3. Probar Tarea1.Persona\n4. Probar MI clase\n5. Salir");
             opc = scan.nextInt();
 
         } while (opc < 1 || opc > 5);

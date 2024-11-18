@@ -1,3 +1,5 @@
+package Tarea1;
+
 public class Calculadora {
 
     private double primerNumero;
