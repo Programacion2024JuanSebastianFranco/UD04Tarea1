@@ -8,7 +8,6 @@ public class Persona {
     private String nif;
 
 
-
     public String getNombre() {
         return nombre;
     }
