@@ -41,4 +41,12 @@ public class Superficie {
     public double getArea() {
         return anchura * alto;
     }
+
+    @Override
+    public String toString() {
+        return "Superficie{" +
+                "alto=" + alto +
+                ", anchura=" + anchura +
+                '}';
+    }
 }
