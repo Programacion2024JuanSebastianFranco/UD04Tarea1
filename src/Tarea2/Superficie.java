@@ -4,7 +4,6 @@ public class Superficie {
 
     private double alto;
     private double anchura;
-    private double area;
 
 
     //Constructores
@@ -13,15 +12,9 @@ public class Superficie {
         this.anchura = 0;
     }
 
-    public Superficie(double ancho, double altura) {
-
-        this.anchura = ancho;
-        this.alto = altura;
-
-        if (ancho < 0)
-            this.anchura = 0;
-        if (altura < 0)
-            this.alto = 0;
+    public Superficie(double ancho, double alto) {
+        setAlto(alto);
+        setAnchura(ancho);
     }
 
     //Setter And Getter
@@ -39,14 +32,13 @@ public class Superficie {
         return anchura;
     }
 
-    public void setAnchura(int anchura) {
+    public void setAnchura(double anchura) {
         this.anchura = anchura;
         if (anchura < 0)
             this.anchura = 0;
     }
 
     public double getArea() {
-        area = anchura * alto;
-        return area;
+        return anchura * alto;
     }
 }

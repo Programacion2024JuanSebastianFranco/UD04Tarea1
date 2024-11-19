@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="cfcd9dbc-dca9-4ad7-b0ce-2d5f87b7bb9c" name="Changes" comment="Fin Persona">
-      <change afterPath="$PROJECT_DIR$/src/Tarea2/Superficie.java" afterDir="false" />
+    <list default="true" id="cfcd9dbc-dca9-4ad7-b0ce-2d5f87b7bb9c" name="Changes" comment="Fin Superficie">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tarea1/Persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tarea1/Persona.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Tarea2/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tarea2/Principal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tarea2/Superficie.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tarea2/Superficie.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -124,7 +122,15 @@
       <option name="project" value="LOCAL" />
       <updated>1731952714853</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Fin Superficie">
+      <option name="closed" value="true" />
+      <created>1732042091829</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1732042091829</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -146,6 +152,7 @@
     <MESSAGE value="Inicio Persona" />
     <MESSAGE value="Inicio Tarea 2" />
     <MESSAGE value="Fin Persona" />
-    <option name="LAST_COMMIT_MESSAGE" value="Fin Persona" />
+    <MESSAGE value="Fin Superficie" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fin Superficie" />
   </component>
 </project>
