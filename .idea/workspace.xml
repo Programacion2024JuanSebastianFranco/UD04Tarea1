@@ -5,7 +5,14 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="cfcd9dbc-dca9-4ad7-b0ce-2d5f87b7bb9c" name="Changes" comment="Inicio Alfombra">
+      <change afterPath="$PROJECT_DIR$/src/Tarea2/Alfombras/Presupuesto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Tarea2/Direccion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/material_theme_project_new.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tarea1/Persona.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tarea1/Persona.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tarea2/Alfombra.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tarea2/Alfombras/Alfombra.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tarea2/Principal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tarea2/Principal.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Tarea2/TipoTejido.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Tarea2/Alfombras/TipoTejido.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -15,8 +22,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -47,16 +54,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "Application.Principal.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "RunOnceActivity.git.unshallow": "true",
-    "git-widget-placeholder": "master",
-    "kotlin-language-version-configured": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;Application.Principal.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;
   }
-}]]></component>
+}</component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

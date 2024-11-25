@@ -1,6 +1,4 @@
-package Tarea2;
-
-import Tarea1.Persona;
+package Tarea2.Alfombras;
 
 public class Alfombra {
 
@@ -9,8 +7,10 @@ public class Alfombra {
     private TipoTejido tejido;
 
 
-    public Alfombra(Superficie suelo, Alfombra alfombra, Persona cliente) {
-
+    public Alfombra(String nombre, double coste, TipoTejido tejido) {
+        this.nombre = nombre;
+        this.coste = coste;
+        this.tejido = tejido;
     }
 
     public String getNombre() {
@@ -35,9 +35,5 @@ public class Alfombra {
 
     public void setTejido(TipoTejido tejido) {
         this.tejido = tejido;
-    }
-
-    public double getPresupuesto(){
-        return alfombra.getCoste() * suelo.getArea();
     }
 }

@@ -7,7 +7,6 @@ public class Persona {
     private int edad;
     private String nif;
 
-
     public String getNombre() {
         return nombre;
     }
