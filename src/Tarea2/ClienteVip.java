@@ -4,7 +4,6 @@ import Tarea1.Persona;
 
 public class ClienteVip {
 
-
     //Propiedades
     private Persona cliente;
     private double limiteCredito;
